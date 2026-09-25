@@ -1,2 +1,24 @@
-# myntra-ui-clone
-Myntra homepage UI recreated using HTML5 and CSS3. 
+# Myntra-UI-Clone
+
+A frontend practice project recreating the **Myntra homepage UI** using HTML5 and CSS3.
+
+## 🛠️ Tech Stack
+
+* HTML5
+* CSS3
+
+## 📌 About
+
+This project is created to practice and apply HTML and CSS concepts by recreating the user interface of the Myntra homepage.
+
+### Concepts Practiced
+
+* HTML5 Semantic Elements
+* CSS Flexbox
+* CSS Grid
+* Responsive Web Design
+* CSS Positioning
+* CSS Transitions
+* CSS Transformations
+* Hover Effects
+* Media Queries
