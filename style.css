@@ -24,7 +24,7 @@ hr {
   --secondary-text-color: #696e79;
   --nav-hover-color: #f23e76;
   --search-input-backgroud-color: #f5f5f6;
-  --title-text-color: #40405e;
+  --title-text-color: #3e4152;
   --header-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
   --footer-title-text-color: #282c3f;
   --secondary-footer-text-color: #696b79;
@@ -156,7 +156,7 @@ nav ul li sup {
 }
 
 /* main   */
-/* banners */
+/* section banners */
 
 .banners .banner-container {
   display: flex;
@@ -181,14 +181,13 @@ nav ul li sup {
   object-fit: cover;
 }
 
-
 /*  main hero banner container  */
 .banners .banner-container .main-hero-banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 20px 0 5px 0
+  padding: 20px 0 5px 0;
 }
 
 /*  main hero banner container image */
@@ -196,7 +195,6 @@ nav ul li sup {
   width: 100%;
   height: auto;
   object-fit: cover;
-  
 }
 
 /* hero banner bottom bots */
@@ -207,9 +205,8 @@ nav ul li sup {
 }
 
 .dots img {
-  width:8rem;
+  width: 8rem;
 }
-
 
 /*  bank discount gif container  */
 .banners .banner-container .bank-discount-gif {
@@ -220,12 +217,44 @@ nav ul li sup {
   padding: 5px 0 5px 0;
 }
 
-
-
 /*  bank discounr gif image */
 .banner-container .bank-discount-gif img {
   width: 100%;
   height: auto;
   object-fit: cover;
-  padding: 8px 0 50px 0 ;
+  padding: 8px 0 50px 0;
 }
+
+/* main   */
+/* section categories products */
+
+/* category container title  */
+.main-categories-items-container .category-text-banner-container {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.32px;
+  color: var(--title-text-color);
+  margin: 0 0 60px 30px;
+}
+
+/* product category  */
+.product-categories {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-inline: 30px;
+}
+
+.product-categories div {
+   min-width: 0;
+}
+.product-categories div img {
+  /* width: 220px; */ 
+  /* display: block; */
+  width: 100%;       
+  height: 100%;       
+  object-fit: contain;
+}
+
+
