@@ -154,3 +154,78 @@ nav ul li sup {
 .header-actions-inner span i {
   font-size: 1.2rem;
 }
+
+/* main   */
+/* banners */
+
+.banners .banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  welcome offer banner container  */
+.banners .banner-container .welcome-offer-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 4px;
+}
+
+/*  welcome offer banner container image */
+.banner-container .welcome-offer-banner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+/*  main hero banner container  */
+.banners .banner-container .main-hero-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0 5px 0
+}
+
+/*  main hero banner container image */
+.banner-container .main-hero-banner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  
+}
+
+/* hero banner bottom bots */
+.dots {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dots img {
+  width:8rem;
+}
+
+
+/*  bank discount gif container  */
+.banners .banner-container .bank-discount-gif {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 5px 0 5px 0;
+}
+
+
+
+/*  bank discounr gif image */
+.banner-container .bank-discount-gif img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 8px 0 50px 0 ;
+}
