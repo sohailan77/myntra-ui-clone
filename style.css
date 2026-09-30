@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+
+body {
+  font-optical-sizing: auto;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+hr {
+  border: 1px;
+  height: 1px;
+  background-color: #eaeaec;
+}
+
+/* CSS Variables */
+
+:root {
+  --primary-text-color: #282c3f;
+  --secondary-text-color: #696e79;
+  --nav-hover-color: #f23e76;
+  --search-input-backgroud-color: #f5f5f6;
+  --title-text-color: #40405e;
+  --header-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  --footer-title-text-color: #282c3f;
+  --secondary-footer-text-color: #696b79;
+  --footer-icon-color: #696e79;
+}
+
+/* Utility Classes */
+
+/* header */
+header {
+  background-color: #fff;
+  margin-bottom: 1.2rem;
+}
+
+/* header navbar */
+.navbar {
+  padding: 0.85rem 0;
+  /* padding-bottom: 2.2rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 2rem; */
+  /* border: 1px solid red; */
+  box-shadow: var(--header-shadow);
+}
+
+/* header logo  */
+.logo-container {
+  margin-left: 3.8%;
+}
+.logo-container .logo {
+  width: 53px;
+  height: 36px;
+  display: flex;
+}
+
+/* header nav links  */
+
+.navbar nav {
+  margin-left: 3.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 1.1rem 1.06rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: var(--primary-text-color);
+}
+
+nav ul li sup {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: #ff3f6c;
+}
+
+/* header search-input  */
+
+.search-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.7rem 0.75rem;
+  margin-right: 1.5rem;
+  border: none;
+  background-color: var(--search-input-backgroud-color);
+  border-radius: 5px;
+}
+
+.search-icon {
+  font-size: 14px;
+  color: var(--secondary-text-color);
+}
+.search-input {
+  width: 100%;
+  margin-left: 1.1rem;
+}
+.search-input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: var(--search-input-backgroud-color);
+  color: var(--secondary-text-color);
+  font-family: "Figtree", sans-serif;
+}
+
+/* header user actions  */
+
+.header-actions {
+  /* width: 15%; */
+  margin: 0 2rem 0 1.2rem;
+}
+
+.header-actions-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-actions-inner div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1.4rem;
+}
+
+.header-actions-inner .action-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.header-actions-inner span i {
+  font-size: 1.2rem;
+}
