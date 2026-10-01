@@ -39,18 +39,17 @@ hr {
 header {
   background-color: #fff;
   margin-bottom: 1.2rem;
+  box-shadow: var(--header-shadow);
+  position: sticky;
+  top: 0px;
 }
 
 /* header navbar */
 .navbar {
   padding: 0.85rem 0;
-  /* padding-bottom: 2.2rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin: 0 2rem; */
-  /* border: 1px solid red; */
-  box-shadow: var(--header-shadow);
 }
 
 /* header logo  */
