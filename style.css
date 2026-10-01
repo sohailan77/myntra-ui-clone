@@ -15,6 +15,7 @@ hr {
   border: 1px;
   height: 1px;
   background-color: #eaeaec;
+  margin: 8px 0;
 }
 
 /* CSS Variables */
@@ -29,6 +30,7 @@ hr {
   --footer-title-text-color: #282c3f;
   --secondary-footer-text-color: #696b79;
   --footer-icon-color: #696e79;
+  --footer-bg-color: #fafbfc;
 }
 
 /* Utility Classes */
@@ -278,7 +280,6 @@ nav ul li sup {
   row-gap: 2rem;
 }
 
-
 .product-offers div {
   min-width: 0;
 }
@@ -289,7 +290,200 @@ nav ul li sup {
   object-fit: contain;
 }
 
+.section-products-offers {
+  margin-bottom: 80px;
+}
 
+/* footer  */
 
+.footer-container {
+  background-color: var(--footer-bg-color);
+  margin-top: 60px;
+  padding: 30px 0 50px 0;
+  max-width: 1080px;
+  margin: auto;
+  min-width: 980px;
+}
 
+/* footer-section1  */
 
+.footer-section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr;
+  column-gap: 20px;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 24px;
+}
+
+.shop-links-container p,
+.customer-policies-link p {
+  font-size: 12px;
+  color: var(--footer-title-text-color);
+  font-weight: 700;
+  margin: 12px 0;
+}
+
+.shop-links ul li:first-child,
+.policies-link ul li:first-child {
+  padding: 14px 0 5px 0;
+}
+.shop-links-container ul li,
+.customer-policies-link ul li {
+  width: 100%;
+  padding-bottom: 5px;
+  list-style-type: none;
+}
+
+.shop-links-container ul li a,
+.customer-policies-link ul li a {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--secondary-footer-text-color);
+  text-decoration: none;
+}
+
+.myntra-app-experience .myntra-app .experience-app-title {
+  font-size: 12px;
+  color: var(--footer-title-text-color);
+  font-weight: 700;
+  margin-top: 12px;
+  padding-bottom: 26px;
+}
+
+.app-down-link-conatiner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.android-down {
+  margin-right: 10px;
+}
+
+.android-down a img,
+.ios-down a img {
+  /* width: 100%; */
+  height: 2.7rem;
+  width: auto;
+}
+
+.keep-in-touch-title {
+  font-size: 12px;
+  color: var(--footer-title-text-color);
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+  /* padding-bottom: 25px; */
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social-links span {
+  color: var(--footer-icon-color);
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+
+.first-promise-section {
+  display: flex;
+  margin: 15px 0 30px 0;
+}
+
+.first-promise-image img {
+  width: 3rem;
+  margin-right: 10px;
+  color: var(--footer-icon-color);
+}
+.promise strong {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--footer-title-text-color);
+}
+
+.promise p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--secondary-footer-text-color);
+}
+
+.second-promise-section {
+  display: flex;
+  margin: 15px 0 30px 0;
+}
+
+.second-promise-image img {
+  width: 3rem;
+  margin-right: 10px;
+  color: var(--footer-icon-color);
+}
+
+/* footer section 2  */
+
+.search-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--footer-title-text-color);
+  position: absolute;
+  margin-top: -15px;
+  padding-right: 10px;
+  background-color: var(--footer-bg-color);
+}
+.search-links {
+  margin-top: 30px;
+}
+
+.search-links a {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--secondary-footer-text-color);
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.search-links a::after {
+  content: " |";
+}
+
+.search-links a:last-child::after {
+  content: "";
+}
+
+/* footer section 3  */
+
+.footer-section3 {
+  margin-top: 40px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info .contact-section {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--secondary-footer-text-color);
+}
+
+.footer-info .contact-section a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #526cd0;
+}
+
+.footer-info .copyright-section {
+  font-size: 16px;
+  font-weight: 400;
+  color: #94969f;
+}
+
+.footer-info .company-name-section a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #94969f;
+}
