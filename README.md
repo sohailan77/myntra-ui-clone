@@ -16,9 +16,5 @@ This project is created to practice and apply HTML and CSS concepts by recreatin
 * HTML5 Semantic Elements
 * CSS Flexbox
 * CSS Grid
-* Responsive Web Design
 * CSS Positioning
-* CSS Transitions
-* CSS Transformations
-* Hover Effects
-* Media Queries
+
