@@ -29,7 +29,7 @@ hr {
   --header-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
   --footer-title-text-color: #282c3f;
   --secondary-footer-text-color: #696b79;
-  --footer-icon-color: #696e79;
+  --footer-icon-color: #233251;
   --footer-bg-color: #fafbfc;
 }
 
@@ -101,11 +101,13 @@ nav ul li sup {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 0.7rem 0.75rem;
+  padding: 0 0.75rem;
   margin-right: 1.5rem;
   border: none;
   background-color: var(--search-input-backgroud-color);
   border-radius: 5px;
+  border: 1px solid #fff;
+
 }
 
 .search-icon {
@@ -123,8 +125,22 @@ nav ul li sup {
   background-color: var(--search-input-backgroud-color);
   color: var(--secondary-text-color);
   font-family: "Figtree", sans-serif;
+  padding: 10px 0;
 }
 
+/* Add pseudo classes */
+/* header search-input  */
+
+.search-product:focus-within {
+  background-color: #fff;
+  border: 1.5px solid #eaeaec;
+}
+
+.search-product input:focus {
+  background-color: #fff;
+}
+
+/* header search input  */
 /* header user actions  */
 
 .header-actions {
