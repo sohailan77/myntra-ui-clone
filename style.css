@@ -26,7 +26,7 @@ hr {
   --nav-hover-color: #f23e76;
   --search-input-backgroud-color: #f5f5f6;
   --title-text-color: #3e4152;
-  --header-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  --header-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
   --footer-title-text-color: #282c3f;
   --secondary-footer-text-color: #696b79;
   --footer-icon-color: #233251;
@@ -47,7 +47,6 @@ header {
 
 /* header navbar */
 .navbar {
-  padding: 0.85rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,7 +77,13 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  padding: 1.1rem 1.06rem;
+  padding: 28px 17px 28px 17px;
+  border-bottom: 4px solid #fff;
+  
+}
+nav ul li:hover {
+  border-bottom: 4px solid #FB56C1;
+
 }
 
 nav ul li a {
@@ -109,6 +114,7 @@ nav ul li sup {
   background-color: var(--search-input-backgroud-color);
   border-radius: 5px;
   border: 1px solid #fff;
+  margin: 20px 20px 20px 0;
 }
 
 .search-icon {
@@ -117,16 +123,16 @@ nav ul li sup {
 }
 .search-input {
   width: 100%;
+  min-width: 157px;
   margin-left: 1.1rem;
 }
 .search-input input {
-  width: 100%;
   border: none;
   outline: none;
   background-color: var(--search-input-backgroud-color);
   color: var(--secondary-text-color);
   font-family: "Figtree", sans-serif;
-  padding: 10px 0;
+  padding: 12px 0;
 }
 
 /* Add pseudo classes */
